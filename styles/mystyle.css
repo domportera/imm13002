@@ -1,12 +1,6 @@
 // this is my style sheet
 
 
-p {
- font-size: 16px;
- font-family: sans-serif;
- color:#505050;
-
-}
 
 h1 {
   
@@ -15,3 +9,10 @@ h1 {
   color:#000000;
 }
 
+
+p {
+ font-size: 16px;
+ font-family: sans-serif;
+ color:#505050;
+
+}
