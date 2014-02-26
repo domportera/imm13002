@@ -1,22 +1,3 @@
-// this is my style sheet
-
-
-
-h1 {
-  
-  font-size: 32px;
-  font-family: serif;
-  color:#000000;
-}
-
-
-p {
- font-size: 16px;
- font-family: sans-serif;
- color:#505050;
-
-}
-
 #wrapper{
     width: 800px;
     height: 1000px;
@@ -24,17 +5,59 @@ p {
     background: #eeeeee;
 }
 
+
+header {
+    padding: 1px 0px 0px 0px;
+    width: 100%;
+    height: 70px;
+    background-color: rgba(0,0,255,0.2);
+    text-align:center;
+}
+
+h1 {
+  font-size: 32px;
+  font-family: serif;
+  color:#000000;
+}
+
+
+#header-nav {
+    font-family: sans-serif;
+    background:#CCCCCC;
+    margin: 10px -10px 10px -10px;
+    
+}
+
+#header-nav li{
+    align-content:center;
+    padding: 0px 25px 0px 25px;
+    display: inline;
+    list-style-type: none;
+    background:#CCCCCC
+}
+
+
 #content{
     width:700px;
     height:800px;
-    margin: 10px 50px 10px 50px;
+    margin: 30px 50px 10px 50px;
+    background: #ddddee;        
 }
 
-header {
-    width: 100%;
-    height: 50px;
-    background: #9090ff;
-    text-align:center;
+
+p {
+ font-size: 16px;
+ font-family: sans-serif;
+ color:#505050;
+ padding: 0px 16px 0px 16px;
+}
+
+article{
+    border: 1px solid #202020;
+    background: #ffffff;
+    width:60%;
+    margin: 10px 10px 20px 10px;
+    float:left;
 }
 
 .article-header {
@@ -42,12 +65,10 @@ header {
     text-align: center;
 }
 
-article{
-    border: 1px solid #202020;
-    background: #ffffff;
-    width:60%;
-    margin: 50px 10px 20px 10px;
-    float:left;
+.article-footer {
+    margin: 5px 5px 5px 5px;
+    border: 1px solid #000000;
+    background: #FDFDFD;
 }
 
 aside {
@@ -59,21 +80,6 @@ aside {
    float:right;
 }
 
-#header-nav {
-    font-family: sans-serif;
-    background:#DDDDDD;
-    
-}
-
-#header-nav li{
-    align-content:center;
-    padding: 0px 25px 0px 25px;
-    display: inline;
-    list-style-type: none;
-}
-
-
-
 .page-footer {
     clear:left; /*used to clear the float property*/
     background: #dddddd;
@@ -81,13 +87,3 @@ aside {
     margin: -5px -5px -5px -5px;
 }
 
-
-p {
- padding: 0px 16px 0px 16px;   
-}
-
-.article-footer {
-    margin: 5px 5px 5px  5px;
-    border: 1px solid #000000;
-    background: #FDFDFD;
-}
