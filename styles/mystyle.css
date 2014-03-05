@@ -1,5 +1,7 @@
+
+
 #wrapper{
-    width: 800px;
+    width: 90%;
     height: 1000px;
     margin: 10px auto 10px auto; /*top right bottom left, or you can just input 2 values: t/b and r/l*/
     background: #eeeeee;
@@ -22,10 +24,10 @@ h1 {
 
 
 #header-nav {
+    height:30px;
     font-family: sans-serif;
     background:#CCCCCC;
-    margin: 10px -10px 10px -10px;
-    
+    margin: 10px -10px 10px -10px
 }
 
 #header-nav li{
@@ -33,30 +35,31 @@ h1 {
     padding: 0px 25px 0px 25px;
     display: inline;
     list-style-type: none;
-    background:#CCCCCC
+    line-height:2em;
 }
-
 
 #content{
-    width:700px;
+    align-content:center;
+    width:85%;
     height:800px;
-    margin: 30px 50px 10px 50px;
-    background: #ddddee;        
+    margin: 52px 7.5% 40px 7.5%;
+    background: #ddddee;
 }
 
 
-p {
+.article-paragraph {
  font-size: 16px;
  font-family: sans-serif;
  color:#505050;
- padding: 0px 16px 0px 16px;
+ padding: 0px 5% 0px 5%;
+ text-align:justify;
 }
 
 article{
     border: 1px solid #202020;
     background: #ffffff;
     width:60%;
-    margin: 10px 10px 20px 10px;
+    margin: 10px 2% 20px 2%;
     float:left;
 }
 
@@ -76,7 +79,7 @@ aside {
    background: #dddddd;
    width: 30%;
    border: 1px #000000 solid;
-   margin: 50px 10px 20px 10px;
+   margin: 10px 2% 20px 2%;
    float:right;
 }
 
@@ -86,4 +89,3 @@ aside {
     border: 1px #000000 solid;
     margin: -5px -5px -5px -5px;
 }
-
