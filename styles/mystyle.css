@@ -8,7 +8,7 @@
 }
 
 
-header {
+#page-header {
     padding: 1px 0px 0px 0px;
     width: 100%;
     height: 70px;
@@ -22,6 +22,7 @@ h1 {
   color:#000000;
 }
 
+/* ---------------------------- Page Header ---------------------------------------------*/
 
 #header-nav {
     height:30px;
@@ -38,50 +39,85 @@ h1 {
     line-height:2em;
 }
 
+
+/* --------------------------------Page Content ---------------------------------*/
+
 #content{
     align-content:center;
-    width:85%;
+    width:92%;
     height:800px;
-    margin: 52px 7.5% 40px 7.5%;
+    margin: 52px 4% 40px 4%;
     background: #ddddee;
 }
 
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ About Our Site ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
-.article-paragraph {
- font-size: 16px;
- font-family: sans-serif;
- color:#505050;
- padding: 0px 5% 0px 5%;
- text-align:justify;
-}
 
 article{
-    border: 1px solid #202020;
-    background: #ffffff;
-    width:60%;
-    margin: 10px 2% 20px 2%;
-    float:left;
+    width:70%;
+    margin: 10px 0% 20px 0%;
+    border: 1px #505050 dotted;
 }
 
-.article-header {
-    background: #ffffff;
+
+
+#about-our-site {
+    font-size: 24px;
     text-align: center;
 }
 
-.article-footer {
-    margin: 5px 5px 5px 5px;
-    border: 1px solid #000000;
-    background: #FDFDFD;
+.article-paragraph {
+ font-size: 14px;
+ font-family: sans-serif;
+ color:#505050;
+ padding: 0px 5% 0px 5%;
+ text-align: justify;
 }
 
-aside {
+
+/*aside {
    font-family: sans-serif;
    background: #dddddd;
    width: 30%;
    border: 1px #000000 solid;
    margin: 10px 2% 20px 2%;
    float:right;
+}*/
+
+/* ---------------------------------- About Us --------------------------------- */
+
+#about-us{
+    height: 400px;
+    width : 100%;
+    border: 1px dotted #505050;
+    margin: 0px 0px 20px 0px;
 }
+
+.about-header {
+    margin:10px 0px 0px 0px;
+    font-size: 24px;
+}
+
+#about-our-company{
+    
+}
+
+#about-dom{
+    width:45%;
+    float:left;
+}
+
+#about-eric{
+    width:45%;
+    float:left;
+
+}
+
+
+
+
+
+/* -------------------------------------- page footer ------------------------------ */
 
 .page-footer {
     clear:left; /*used to clear the float property*/
