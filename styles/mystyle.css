@@ -1,127 +1,142 @@
-
-
-#wrapper{
-    width: 90%;
-    height: 1000px;
-    margin: 10px auto 10px auto; /*top right bottom left, or you can just input 2 values: t/b and r/l*/
-    background: #eeeeee;
+ @media (max-width: 780px) {
+     #wrapper {
+         
 }
-
-
-#page-header {
-    padding: 1px 0px 0px 0px;
-    width: 100%;
-    height: 70px;
-    background-color: rgba(0,0,255,0.2);
-    text-align:center;
 }
+/*;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;*/
 
-h1 {
-  font-size: 32px;
-  font-family: serif;
-  color:#000000;
-}
-
+@media screen and (min-width: 581px) and (max-width: 1200px) {
+    #wrapper {
+        width: 90%;
+        height: 1000px;
+        margin: 10px auto;
+        background: #eeeeee;   
+    }
+    
+    
 /* ---------------------------- Page Header ---------------------------------------------*/
 
-#header-nav {
-    height:30px;
-    font-family: sans-serif;
-    background:#CCCCCC;
-    margin: 10px -10px 10px -10px
-}
-
-#header-nav li{
-    align-content:center;
-    padding: 0px 25px 0px 25px;
-    display: inline;
-    list-style-type: none;
-    line-height:2em;
-}
-
-
-/* --------------------------------Page Content ---------------------------------*/
-
-#content{
-    align-content:center;
-    width:92%;
-    height:800px;
-    margin: 52px 4% 40px 4%;
-    background: #ddddee;
-}
-
-/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ About Our Site ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-
-
-article{
-    width:70%;
-    margin: 10px 0% 20px 0%;
-    border: 1px #505050 dotted;
-}
-
-
-
-#about-our-site {
-    font-size: 24px;
-    text-align: center;
-}
-
-.article-paragraph {
- font-size: 14px;
- font-family: sans-serif;
- color:#505050;
- padding: 0px 5% 0px 5%;
- text-align: justify;
-}
-
-
-/*aside {
-   font-family: sans-serif;
-   background: #dddddd;
-   width: 30%;
-   border: 1px #000000 solid;
-   margin: 10px 2% 20px 2%;
-   float:right;
-}*/
-
-/* ---------------------------------- About Us --------------------------------- */
-
-#about-us{
-    height: 400px;
-    width : 100%;
-    border: 1px dotted #505050;
-    margin: 0px 0px 20px 0px;
-}
-
-.about-header {
-    margin:10px 0px 0px 0px;
-    font-size: 24px;
-}
-
-#about-our-company{
     
+    #page-header header{
+        background-color: rgba(220,220,220, 1);
+        width: 100%;
+
+    }
+    #page-header h1 {
+        height:100px;
+        line-height:100px; /*centers heading vertically*/
+        font-size: 48px;
+        font-family: serif;
+        color:#000000;
+        background-color: rgba(220,220,220, 1);
+        text-align: center;
+    }    
+    
+    #header-nav {
+        height:30px;
+        line-height: 30px;
+        font-family: sans-serif;
+        background:#CCCCCC;
+        margin: -20px -10px 0px -10px;
+        text-align:center;
+        border-radius: 10px;
+
+    }
+
+  
+    #header-nav li {
+        list-style: none;
+        padding: 0px 4% 0px 4%;
+        display: inline;
+
+    }
+    /* --------------------------------Page Content ---------------------------------*/
+    #content {
+        width:92%;
+        height:800px;
+        margin: 10px 4% 10px 4%;
+        background: #dddddd;
+    }
+    
+    #emptyspace {
+        font-size: 0;
+    }
+        
+    /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ About Our Site ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+    article {
+        width:60%;
+        margin: 20px 0% 12px 32px;
+        padding: 10px;
+        border: 5px #505050 groove;
+        border-radius: 10px;
+        background: #cccccc;
+
+    }
+    #about-our-site {
+        font-size: 24px;
+        text-align: center;        
+    }
+    .article-paragraph {
+        font-size: 14px;
+        font-family: sans-serif;
+        color:#505050;
+        padding: 0px 5% 0px 5%;
+        text-align: justify;
+    }
+    
+    /* ---------------------------------- About Us --------------------------------- */
+    .about-us {
+        height: auto;
+        width : 92%;
+        margin: 0px auto;
+        border: 5px groove #505050;
+        border-radius: 10px;
+       
+    }
+    .about-header {
+        font-size: 24px;
+        text-align: center;
+    }
+    #about-our-company {
+  padding: 24px 2.5% 0px 2.5%;  
+      
+    }
+    
+    
+    #about-header{
+
+
+    }
+    
+    #about-dom {
+        width:40%;
+        padding: 0 5%;
+        float:left;
+    }
+    #about-eric {
+        width:40%;
+        padding: 0 5%;
+        float:right;
+    }
+    
+    #unfloat-border{
+        font-size: 1;
+        float:clear;
+    }
+    
+    
+    /* -------------------------------------- page footer ------------------------------ */
+    .page-footer {
+        clear:left;
+        /*used to clear the float property*/
+        background: #dddddd;
+        border: 1px #000000 solid;
+        margin: -5px -5px -5px -5px;
+    }
 }
 
-#about-dom{
-    width:45%;
-    float:left;
+/*;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;*/
+
+@media (max-width: 3000px) {
 }
-
-#about-eric{
-    width:45%;
-    float:left;
-
-}
-
-
-
-
-
-/* -------------------------------------- page footer ------------------------------ */
-
-.page-footer {
-    clear:left; /*used to clear the float property*/
-    background: #dddddd;
-    border: 1px #000000 solid;
-    margin: -5px -5px -5px -5px;
-}
+/*;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;*/
