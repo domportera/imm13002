@@ -62,8 +62,8 @@
         
     /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ About Our Site ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
     article {
-        width:60%;
-        margin: 20px 0% 12px 32px;
+        width:80%;
+        margin: 20px auto 12px auto;
         padding: 10px;
         border: 5px #505050 groove;
         border-radius: 20px;
@@ -86,7 +86,8 @@
         text-align: justify;
     }
     
-  
+    
+    
     /* -------------------------------------- page footer ------------------------------ */
     .page-footer {
         clear:left;
