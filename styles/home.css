@@ -4,10 +4,10 @@ body {
      }
      #wrapper {
          width: 90%;
-         height: 1000px;
+         height: 100%;
          margin: 10px auto;
          background: #606060;
-         border-radius:10px 10px 0px 0px;
+         border-radius:10px 10px 10px 10px;
      }
      /* ---------------------------- Page Header ---------------------------------------------*/
      #page-header header {
@@ -52,7 +52,7 @@ body {
      /* --------------------------------Page Content ---------------------------------*/
      #content {
          width:92%;
-         height:800px;
+         height: 100%;
          margin: 10px 4% 10px 4%;
          background: #404040;
          border-radius:10px;
@@ -123,10 +123,10 @@ body {
      #wrapper {
          clear:left;
          width: 90%;
-         height: 1000px;
+         height: 100%;
          margin: 10px auto;
          background: rgba(40,40,40,.5);
-         border-radius:10px 10px 0px 0px;
+         border-radius:10px 10px 10px 10px;
      }
      /* ---------------------------- Page Header ---------------------------------------------*/
      #page-header header {
@@ -171,7 +171,7 @@ body {
      /* --------------------------------Page Content ---------------------------------*/
      #content {
          width:92%;
-         height:800px;
+         height:100%;
          margin: 10px 4% 10px 4%;
          background: rgba(40,40,40,1);
          border-radius:10px;
@@ -223,13 +223,20 @@ body {
     #blog-img{
     }
      /* -------------------------------------- page footer ------------------------------ */
+    #empty-bottom-content-wrap{
+        clear:left;
+        clear:right;
+        padding: 20px;
+    }
+    
      .page-footer {
          clear:left;
-        height:30px;
+         clear:right;
+         margin: -20px -10px 0px -10px;
+         height:30px;
          line-height: 30px;
          font-family: sans-serif;
          background: rgba(60,60,60,8);
-         margin: -20px -10px 0px -10px;
          text-align:center;
          border-radius: 10px;
          border: 0px rgba(0,0,0,.5) solid;
