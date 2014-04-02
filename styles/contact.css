@@ -265,7 +265,7 @@
         font-family:'Palatino Linotype', serif;
          /*font-family:sans-serif;*/
         color:#BBBBBB;
-        font-size: 24px;
+        font-size: 30px;
         margin: 20px 0 20px 2%;
     }
     .short-form {
@@ -299,6 +299,7 @@
     .small-label {
         font-family:'Palatino Linotype', serif;
         color: #bbbbbb;
+        font-size:18px;
     }
     /* -------------------------------------- page footer ------------------------------ */
     #empty-bottom-content-wrap {
@@ -422,7 +423,7 @@
         font-family:'Palatino Linotype', serif;
          /*font-family:sans-serif;*/
         color:#BBBBBB;
-        font-size: 24px;
+        font-size: 32px;
         margin: 20px 0 20px 2%;
     }
     .short-form {
@@ -455,6 +456,7 @@
     .small-label {
         font-family:'Palatino Linotype', serif;
         color: #bbbbbb;
+        font-size:20px;
     }
     /* -------------------------------------- page footer ------------------------------ */
     #empty-bottom-content-wrap {
@@ -576,7 +578,7 @@
         font-family:'Palatino Linotype', serif;
          /*font-family:sans-serif;*/
         color:#BBBBBB;
-        font-size: 24px;
+        font-size: 32px;
         margin: 20px 0 20px 2%;
     }
     .short-form {
@@ -608,6 +610,7 @@
     .small-label {
         font-family:'Palatino Linotype', serif;
         color: #bbbbbb;
+        font-size:20px;
     }
 
     /* -------------------------------------- page footer ------------------------------ */
