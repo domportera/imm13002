@@ -1,28 +1,72 @@
 <!doctype html>
 <html>
 
-
+<head>
 <link rel="stylesheet" href="/styles/contact.css">
-<h1>Email:</h1>
+</head>
+
+<body>
+<div id="wrapper">
+    <header id="page-header">
+         <h1>
+             <img src="http://i.imgur.com/TZ8Vc50.png" title="Learning Game" id="learning-game-logo"/>
+             <img src="http://i.imgur.com/8OeQV2S.png" title = "Development" id = "development-logo"/>
+            
+            
+            
+        </h1>
+
+        <nav id="header-nav">
+            <ul>
+                <a href="./about.html"><li class="top-buttons">Home</li></a>
+                <a href="./guide.html"><li class="top-buttons">Guide</li></a>
+                <a href="./blog-home.html"><li class="top-buttons">Blog</li></a>
+                <a href="./about-me.html"><li class="bottom-button1">About Me</li></a>
+                <a href="./contact.html"><li class="bottom-button2">Contact</li></a>
+            </ul>
+        </nav>
+    </header>
+    <div id="content">
+        <!-- in order to allow padding by the about-->
+        <div id="empty-space">
+            <p>&nbsp;</p>
+        </div>
+        
+        
+        <article>
+       <h1 id="email-header">Email:</h1>
 
   <p>
   
 <form action="http://www.tcnj.edu/~porterd4/PHP/contact.php">
     
-    <label>From:</label><br/>
-    <input type="text" name ="from" placeholder="Type email here"/>
+    <label class="small-label">From:</label><br/>
+    <input type="text" name ="from" placeholder="Type email here" class="short-form"/>
     <br/><br/>
-    <label>Subject:</label><br/>
-    <input type="text" name="subject" placeholder="Type subject here"/>
+    <label class="small-label">Subject:</label><br/>
+    <input type="text" name="subject" placeholder="Type subject here" class="short-form"/>
     <br/><br/>
-    <label>Message</label><br/>
-    <textarea name="message" placeholder="Type message here"></textarea>
+    <label class="small-label">Message</label><br/>
+    <textarea name="message" placeholder="Type message here" class="message-form"></textarea>
     
-    <input type="submit" name="submit" value="submit"/>
+    <input type="submit" name="submit" value="submit" id="submit"/>
         
     </form>
     
   </p>
+        </article>
+        
+     <div id="empty-bottom-content-wrap">
+        </div>
+        
+        
+    </div> <!--content-->
+       
+    <footer class="page-footer">
+        <p>Website currently under construction for a class instructed by Mark Thompson.</p>
+    </footer>
+</div>
+</body>
 
 
 </html>
