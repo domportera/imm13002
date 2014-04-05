@@ -452,6 +452,7 @@ A:hover {
          border-radius: 20px;
          background-image: url(http://i.imgur.com/NP3n7Af.jpg);
          width:37%;
+        max-width:300px;
      }
      #guide-box {
         margin: 4% 0 4% 8%;
@@ -604,6 +605,8 @@ A:hover {
          border-radius: 20px;
          background-image: url(http://i.imgur.com/NP3n7Af.jpg);
          width:37%;
+         max-width:300px;
+
      }
      #guide-box {
         margin: 4% 0 4% 8%;
