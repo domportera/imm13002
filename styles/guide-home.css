@@ -1,0 +1,669 @@
+@media screen and (min-width:0px) and (max-width:320px){
+    
+body { 
+       background: #101010;
+
+     }
+    
+     #wrapper {
+         clear:left;
+         width: 258px;
+         height: 100%;
+         margin: 0px auto;
+         background: rgba(40,40,40,.5);
+         border-radius:10px 10px 10px 10px;
+     }
+     /* ---------------------------- Page Header ---------------------------------------------*/
+     #page-header header {
+         width: 100%;
+         height:100%;
+     }
+     #page-header h1 {
+         background-color: rgba(20,20,20,.5);
+         text-align: center;
+         padding:0px 0px 0px 0px;
+         border-radius:10px 10px 0px 0px;
+     }
+     #learning-game-logo {
+         width: 90%;
+         height: 40%;
+         float: center;
+         padding: 15px 0px 0px 0px;
+     }
+     #development-logo {
+         width:84%;
+         height: 40%;
+         float:center;
+     }
+     #header-nav {
+         height:4em;
+         line-height: 2em;
+         font-size: 16px;
+         font-family: sans-serif;
+        
+         background: rgba(40,40,40,1);
+         margin: -20px -10px 0px -10px;
+         border-radius: 10px;
+        text-align:center;
+    }
+
+            #header-nav ul{
+                display: block;
+        text-align:center;
+
+     }
+     #header-nav li {
+         list-style: none;
+         display: inline;
+         border: 0px solid #202020;
+        height:2em;
+        text-align:center;
+     }
+    
+    .top-buttons{
+        float:left;
+        width:30%;
+    }
+    
+    .bottom-button1{
+        float:left;
+        width:50%;
+    }
+    
+    .bottom-button2{
+        float:left;
+        width:30%;
+    }
+    
+       
+ 
+   
+     /* --------------------------------Page Content ---------------------------------*/
+     #content {
+         width:92%;
+         height:100%;
+         margin: 10px 4% 10px 4%;
+         background: rgba(40,40,40,1);
+         border-radius:10px;
+     }
+     #emptyspace {
+         font-size: 0;
+     }
+     /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ About Our Site ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+     article {
+         width:80%;
+         margin: -20px auto 0 auto;
+         padding: 10px;
+         border: 5px #151515 solid;
+         border-radius: 20px;
+         background: #202020;
+     }
+     #about-our-site {
+         margin: 10px 0px;
+         font-size: 28px;
+         text-align:center;
+         font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+         color:#BBBBBB;
+     }
+     .article-paragraph {
+         font-size: 15px;
+         font-family: sans-serif;
+         color:#999999;
+         padding: 0px 5% 0px 5%;
+         text-align: justify;
+     }
+     .boxes {
+         font-size: 30px;
+         border: 5px #151515 outset;
+         border-radius: 20px;
+         background: #202020;
+         width:37%;
+     }
+     #guide-box {
+        margin: 4% 0 4% 8%;
+        float: left;
+
+     }
+     #blog-box {
+        margin: 4% 8% 4% 0;
+        float:right;
+     }
+    
+    #blog-img{
+    }
+     /* -------------------------------------- page footer ------------------------------ */
+    #empty-bottom-content-wrap{
+        clear:left;
+        clear:right;
+        padding: ;
+    }
+    
+     .page-footer {
+         clear:left;
+         clear:right;
+         margin: 0px -10px 0px -10px;
+         height:60px;
+         line-height: 60px;
+         font-family: sans-serif;
+         background: rgba(42,42,42,1);
+         text-align:center;
+         border-radius: 10px;                 
+         color:#BBBBBB;
+     }
+
+/*---------------------------------------Link/Misc Styles-----------------------------------------------*/
+
+A:link {
+    text-decoration: none;
+    font-weight: bold;
+    color: #BBBBBB;
+}
+A:visited {
+    text-decoration: none;
+    color: #BBBBBB;
+    font-weight: bold;
+}
+A:active {
+    text-decoration: none;
+    color: #BBBBBB;
+    font-weight: bold;
+
+}
+A:hover {
+    text-decoration: underline; 
+    color: #FFFFFF;
+}
+    
+}
+
+ /*;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;*/
+
+@media screen and (min-width:321px) and (max-width: 580px) {
+    body { 
+       background: #101010;
+
+     }
+    
+     #wrapper {
+         clear:left;
+         width: 90%;
+         height: 100%;
+         margin: 0px auto;
+         background: rgba(40,40,40,.5);
+         border-radius:10px 10px 10px 10px;
+     }
+     /* ---------------------------- Page Header ---------------------------------------------*/
+     #page-header header {
+         width: 100%;
+         height:100%;
+     }
+     #page-header h1 {
+         background-color: rgba(20,20,20,.5);
+         text-align: center;
+         padding:0px 0px 0px 0px;
+         border-radius:10px 10px 0px 0px;
+     }
+     #learning-game-logo {
+         width: 90%;
+         height: 40%;
+         float: center;
+         padding: 15px 0px 0px 0px;
+     }
+     #development-logo {
+         width:84%;
+         height: 40%;
+         float:center;
+     }
+     #header-nav {
+         height:4em;
+         line-height: 2em;
+         font-size: 20px;
+         font-family: sans-serif;
+        
+         background: rgba(40,40,40,1);
+         margin: -20px -10px 0px -10px;
+         border-radius: 10px;
+        text-align:center;
+    }
+
+      #header-nav ul{
+         display: block;
+         text-align:center;
+
+     }
+     #header-nav li {
+         list-style: none;
+         display: inline;
+         border: 0px solid #202020;
+         height:2em; 
+         text-align:center;
+     }
+    
+    .top-buttons{
+        float:left;
+        width:30%;
+    }
+    
+    .bottom-button1{
+        float:left;
+        width:50%;
+    }
+    
+    .bottom-button2{
+        float:left;
+        width:30%
+    }
+    
+    #aboutbutton{
+        float:left;
+    }
+ 
+   
+     /* --------------------------------Page Content ---------------------------------*/
+     #content {
+         width:92%;
+         height:100%;
+         margin: 10px 4% 10px 4%;
+         background: rgba(40,40,40,1);
+         border-radius:10px;
+     }
+     #emptyspace {
+         font-size: 0;
+     }
+     /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ About Our Site ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+     article {
+         width:80%;
+         margin: -20px auto 0 auto;
+         padding: 10px;
+         border: 5px #151515 solid;
+         border-radius: 20px;
+         background: #202020;
+     }
+     #about-our-site {
+         margin: 10px 0px;
+         font-size: 28px;
+         text-align:center;
+         font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+         color:#BBBBBB;
+     }
+     .article-paragraph {
+         font-size: 15px;
+         font-family: sans-serif;
+         color:#999999;
+         padding: 0px 5% 0px 5%;
+         text-align: justify;
+     }
+     .boxes {
+         font-size: 30px;
+         border: 5px #151515 outset;
+         border-radius: 20px;
+         background: #202020;
+         width:37%;
+     }
+     #guide-box {
+        margin: 4% 0 4% 8%;
+        float: left;
+
+     }
+     #blog-box {
+        margin: 4% 8% 4% 0;
+        float:right;
+     }
+    
+    #blog-img{
+    }
+     /* -------------------------------------- page footer ------------------------------ */
+    #empty-bottom-content-wrap{
+        clear:left;
+        clear:right;
+        padding: ;
+    }
+    
+     .page-footer {
+         clear:left;
+         clear:right;
+         margin: 0px -10px 0px -10px;
+         height:60px;
+
+         line-height: 60px;
+         font-family: sans-serif;
+         background: rgba(42,42,42,1);
+         text-align:center;
+         border-radius: 10px;
+
+        
+        color:#BBBBBB;
+     }
+
+/*---------------------------------------Link/Misc Styles-----------------------------------------------*/
+
+A:link {
+    text-decoration: none;
+    font-weight: bold;
+    color: #BBBBBB;
+}
+A:visited {
+    text-decoration: none;
+    color: #BBBBBB;
+    font-weight: bold;
+}
+A:active {
+    text-decoration: none;
+    color: #BBBBBB;
+    font-weight: bold;
+
+}
+A:hover {
+    text-decoration: underline; 
+    color: #FFFFFF;
+}
+}
+
+ /*;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;*/
+ @media screen and (min-width: 581px) and (max-width: 1200px) {
+     body {
+        background-image: url(http://i.imgur.com/Z6s01ER.jpg);
+     }
+     #wrapper {
+         clear:left;
+         width: 90%;
+         height: 100%;
+         margin: 10px auto;
+         background: rgba(40,40,40,.5);
+         border-radius:10px 10px 10px 10px;
+     }
+     /* ---------------------------- Page Header ---------------------------------------------*/
+     #page-header header {
+         width: 100%;
+     }
+     #page-header h1 {
+         height:100px;
+         line-height:100px;
+         /*centers heading vertically*/
+         font-size: 48px;
+         background-color: rgba(20,20,20,.5);
+         text-align: center;
+         padding:30px 0px 0px 0px;
+         border-radius:10px 10px 0px 0px;
+     }
+     #learning-game-logo {
+         width: 51%;
+         height: 80%;
+         float: left;
+        padding: 0 0 0 1%;
+     }
+     #development-logo {
+         width:48%;
+         height:80%;
+         float:left;
+     }
+     #header-nav {
+         height:30px;
+         line-height: 30px;
+         font-family: sans-serif;
+         background: rgba(50,50,50,.8);
+         margin: -20px -10px 0px -10px;
+         text-align:center;
+         border-radius: 10px;
+     }
+     #header-nav li {
+         list-style: none;
+         margin: 0px 2.8% 0px 1.9%;
+         display: inline;
+     }
+     /* --------------------------------Page Content ---------------------------------*/
+     #content {
+         width:92%;
+         height:100%;
+         margin: 10px 4% 10px 4%;
+         background: rgba(40,40,40,1);
+         border-radius:10px;
+     }
+     #emptyspace {
+         font-size: 0;
+        line-height:0px;
+     }
+     /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ About Our Site ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+     article {
+         width:80%;
+         margin: -1% auto 0 auto;
+         border: 5px #151515 solid;
+         border-radius: 20px;
+         padding:10px;
+         background: #202020;
+     }
+     #about-our-site {
+         margin: 0px 0px;
+         font-size: 28px;
+         text-align:center;
+         font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+         color:#BBBBBB;
+     }
+     .article-paragraph {
+         font-size: 15px;
+         font-family: sans-serif;
+         color:#999999;
+         padding: 0px 5% 0px 5%;
+         text-align: justify;
+     }
+     .boxes {
+         font-size: 30px;
+         border: 5px #151515 outset;
+         border-radius: 20px;
+         background-image: url(http://i.imgur.com/NP3n7Af.jpg);
+         width:37%;
+        max-width:300px;
+     }
+     #guide-box {
+        margin: 4% 0 4% 8%;
+        float: left;
+
+     }
+     #blog-box {
+        margin: 4% 8% 4% 0;
+        float:right;
+     }
+    
+    #blog-img{
+    }
+     /* -------------------------------------- page footer ------------------------------ */
+    #empty-bottom-content-wrap{
+        clear:left;
+        clear:right;
+        padding: ;
+    }
+    
+     .page-footer {
+         clear:left;
+         clear:right;
+         margin: 0px -10px 0px -10px;
+         height:60px;
+
+         line-height: 60px;
+         font-family: sans-serif;
+         background: rgba(60,60,60,.8);
+         text-align:center;
+         border-radius: 10px;
+         
+        
+        color:#BBBBBB;
+     }
+
+/*---------------------------------------Link/Misc Styles-----------------------------------------------*/
+
+A:link {
+    text-decoration: none;
+    font-weight: bold;
+    color: #BBBBBB;
+}
+A:visited {
+    text-decoration: none;
+    color: #BBBBBB;
+    font-weight: bold;
+}
+A:active {
+    text-decoration: none;
+    color: #BBBBBB;
+    font-weight: bold;
+
+}
+A:hover {
+    text-decoration: underline; 
+    color: #FFFFFF;
+}
+}
+ /*;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;*/
+ @media screen and (min-width:1201px) and (max-width: 3000px) {
+     body {
+        background-image: url(http://i.imgur.com/Z6s01ER.jpg);
+     }
+     #wrapper {
+         clear:left;
+         width: 1080px;
+         height: 100%;
+         margin: 10px auto;
+         background: rgba(40,40,40,.5);
+         border-radius:10px 10px 10px 10px;
+     }
+     /* ---------------------------- Page Header ---------------------------------------------*/
+     #page-header header {
+         width: 100%;
+     }
+     #page-header h1 {
+         height:100px;
+         line-height:100px;
+         /*centers heading vertically*/
+         font-size: 48px;
+         background-color: rgba(20,20,20,.5);
+         text-align: center;
+         padding:30px 0px 0px 0px;
+         border-radius:10px 10px 0px 0px;
+     }
+     #learning-game-logo {
+         width: 51%;
+         height: 80%;
+         float: left;
+        padding: 0 0 0 1%;
+     }
+     #development-logo {
+         width:48%;
+         height:80%;
+         float:left;
+     }
+     #header-nav {
+         height:30px;
+         line-height: 30px;
+         font-family: sans-serif;
+         background: rgba(50,50,50,.8);
+         margin: -20px -10px 0px -10px;
+         text-align:center;
+         border-radius: 10px;
+     }
+     #header-nav li {
+         list-style: none;
+         margin: 0px 2.8% 0px 1.9%;
+         display: inline;
+     }
+     /* --------------------------------Page Content ---------------------------------*/
+     #content {
+         width:92%;
+         height:100%;
+         margin: 10px 4% 10px 4%;
+         background: rgba(40,40,40,1);
+         border-radius:10px;
+     }
+     #emptyspace {
+         font-size: 0;
+        line-height:0px;
+     }
+     /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ About Our Site ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+     article {
+         width:80%;
+         margin: -1% auto 0 auto;
+         border: 5px #151515 solid;
+         border-radius: 20px;
+         padding:10px;
+         background: #202020;
+     }
+     #about-our-site {
+         margin: 0px 0px;
+         font-size: 28px;
+         text-align:center;
+         font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+         color:#BBBBBB;
+     }
+     .article-paragraph {
+         font-size: 15px;
+         font-family: sans-serif;
+         color:#999999;
+         padding: 0px 5% 0px 5%;
+         text-align: justify;
+     }
+     .boxes {
+         font-size: 30px;
+         border: 5px #151515 outset;
+         border-radius: 20px;
+         background-image: url(http://i.imgur.com/NP3n7Af.jpg);
+         width:37%;
+         max-width:300px;
+
+     }
+     #guide-box {
+        margin: 4% 0 4% 8%;
+        float: left;
+
+     }
+     #blog-box {
+        margin: 4% 8% 4% 0;
+        float:right;
+     }
+    
+    #blog-img{
+    }
+     /* -------------------------------------- page footer ------------------------------ */
+    #empty-bottom-content-wrap{
+        clear:left;
+        clear:right;
+        padding: ;
+    }
+    
+     .page-footer {
+         clear:left;
+         clear:right;
+         margin: 0px -10px 0px -10px;
+         height:60px;
+
+         line-height: 60px;
+         font-family: sans-serif;
+         background: rgba(60,60,60,.8);
+         text-align:center;
+         border-radius: 10px;
+         
+        
+        color:#BBBBBB;
+     }
+
+/*---------------------------------------Link/Misc Styles-----------------------------------------------*/
+
+A:link {
+    text-decoration: none;
+    font-weight: bold;
+    color: #BBBBBB;
+}
+A:visited {
+    text-decoration: none;
+    color: #BBBBBB;
+    font-weight: bold;
+}
+A:active {
+    text-decoration: none;
+    color: #BBBBBB;
+    font-weight: bold;
+
+}
+A:hover {
+    text-decoration: underline; 
+    color: #FFFFFF;
+}
+ }
+ /*;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;*/
