@@ -383,51 +383,61 @@ A:hover {
          border-radius:10px;
         overflow: hidden; /*allows content to wrap around floated elements*/
      }
-     #emptyspace {
-         font-size: 0;
-        line-height:0px;
-     }
-     /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ About Our Site ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-     .sub-cat-L {
-        float:left;        
+    #container{
+         margin:5%;
+    }     
+    /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ About Our Site ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+   .sub-cat-L {
+     margin: 3% 5%;
+       
      }
     
     .sub-cat-R {
-        float:right;        
+      margin: 3% 5%;
+       
     }
     
-
 .sub-cat {
+    text-align:center;
+    color:#BBBBBB;  
+    float:left;
     width: 40%;
-    height: 300px;
-        margin:5% 5%;
+    height:width;
+
 }
-
-
     
     .icon{
-        width:100%
-        height:width;
-        max-width:300px;
-        max-height:300px;
-        margin: auto;
+        width:100%;
+        max-width:260px;
+        max-height:width;
+    }
+    .icon-title{
+       font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+    font-size: 28px;
+
     }
     
+    .hidden-text{
+        font-family:sans-serif;
+        font-style:italic;
+    }
     
-     #about-our-site {
-         margin: 0px 0px;
-         font-size: 28px;
-         text-align:center;
-         font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
-         color:#BBBBBB;
-     }
-     .article-paragraph {
-         font-size: 15px;
-         font-family: sans-serif;
-         color:#999999;
-         padding: 0px 5% 0px 5%;
-         text-align: justify;
-     }
+    /*-------------------------INTERACTIVITY---------------------*/
+    
+.icon:hover{
+  cursor: pointer;
+  opacity: 0.6;
+}
+    
+.icon-title:hover{
+    cursor:pointer;
+    opacity:0.6;
+}
+    
+#stay-together{
+        float:left;
+        width:100%;
+    }
     
      /* -------------------------------------- page footer ------------------------------ */
     #empty-bottom-content-wrap{
