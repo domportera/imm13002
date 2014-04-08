@@ -85,34 +85,61 @@ body {
          margin: 10px 4% 10px 4%;
          background: rgba(40,40,40,1);
          border-radius:10px;
+        overflow:hidden;
      }
-     #emptyspace {
-         font-size: 0;
+     #container{
+         margin:5%;
+    }     
+    /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ About Our Site ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+   .sub-cat-L {
+     margin: 3% 5%;
+       
      }
-     /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ About Our Site ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-     article {
-         width:80%;
-         margin: -20px auto 0 auto;
-         padding: 10px;
-         border: 5px #151515 solid;
-         border-radius: 20px;
-         background: #202020;
-     }
-     #about-our-site {
-         margin: 10px 0px;
-         font-size: 28px;
-         text-align:center;
-         font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
-         color:#BBBBBB;
-     }
-     .article-paragraph {
-         font-size: 15px;
-         font-family: sans-serif;
-         color:#999999;
-         padding: 0px 5% 0px 5%;
-         text-align: justify;
-     }
-   
+    
+    .sub-cat-R {
+      margin: 3% 5%;
+       
+    }
+    
+.sub-cat {
+    text-align:center;
+    color:#BBBBBB;  
+       float: center;
+        width: 90%;
+    height:width;
+        margin: 12% auto;
+
+}
+    
+    .icon{
+        width:60%;
+        max-width:260px;
+        max-height:width;
+    }
+    .icon-title{
+       font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+    font-size: 28px;
+
+    }
+    
+    .hidden-text{
+        font-family:sans-serif;
+        font-style:italic;
+    }
+    
+    /*-------------------------INTERACTIVITY---------------------*/
+    
+.icon:hover{
+  cursor: pointer;
+  opacity: 0.6;
+}
+    
+.icon-title:hover{
+    cursor:pointer;
+    opacity:0.6;
+}
+    
+
      /* -------------------------------------- page footer ------------------------------ */
     #empty-bottom-content-wrap{
         clear:left;
@@ -248,34 +275,61 @@ A:hover {
          margin: 10px 4% 10px 4%;
          background: rgba(40,40,40,1);
          border-radius:10px;
+        overflow:hidden;
      }
-     #emptyspace {
-         font-size: 0;
+    #container{
+         margin:5%;
+    }     
+    /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ About Our Site ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+   .sub-cat-L {
+     margin: 3% 5%;
+       
      }
-     /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ About Our Site ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-     article {
-         width:80%;
-         margin: -20px auto 0 auto;
-         padding: 10px;
-         border: 5px #151515 solid;
-         border-radius: 20px;
-         background: #202020;
-     }
-     #about-our-site {
-         margin: 10px 0px;
-         font-size: 28px;
-         text-align:center;
-         font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
-         color:#BBBBBB;
-     }
-     .article-paragraph {
-         font-size: 15px;
-         font-family: sans-serif;
-         color:#999999;
-         padding: 0px 5% 0px 5%;
-         text-align: justify;
-     }
-     
+    
+    .sub-cat-R {
+      margin: 3% 5%;
+       
+    }
+    
+.sub-cat {
+    text-align:center;
+    color:#BBBBBB;  
+       float: center;
+        width: 90%;
+    height:width;
+        margin: 12% auto;
+
+}
+    
+    .icon{
+        width:60%;
+        max-width:260px;
+        max-height:width;
+    }
+    .icon-title{
+       font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+    font-size: 28px;
+
+    }
+    
+    .hidden-text{
+        font-family:sans-serif;
+        font-style:italic;
+    }
+    
+    /*-------------------------INTERACTIVITY---------------------*/
+    
+.icon:hover{
+  cursor: pointer;
+  opacity: 0.6;
+}
+    
+.icon-title:hover{
+    cursor:pointer;
+    opacity:0.6;
+}
+    
+
      /* -------------------------------------- page footer ------------------------------ */
     #empty-bottom-content-wrap{
         clear:left;
@@ -544,42 +598,66 @@ A:hover {
          margin: 10px 4% 10px 4%;
          background: rgba(40,40,40,1);
          border-radius:10px;
+        overflow:hidden;
      }
-     #emptyspace {
-         font-size: 0;
-        line-height:0px;
+    #container{
+         margin:5%;
+    }     
+    /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ About Our Site ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+   .sub-cat-L {
+     margin: 3% 5%;
+       
      }
-     /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ About Our Site ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-     article {
-         width:80%;
-         margin: -1% auto 0 auto;
-         border: 5px #151515 solid;
-         border-radius: 20px;
-         padding:10px;
-         background: #202020;
-     }
-     #about-our-site {
-         margin: 0px 0px;
-         font-size: 28px;
-         text-align:center;
-         font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
-         color:#BBBBBB;
-     }
-     .article-paragraph {
-         font-size: 15px;
-         font-family: sans-serif;
-         color:#999999;
-         padding: 0px 5% 0px 5%;
-         text-align: justify;
-     }
-     
+    
+    .sub-cat-R {
+      margin: 3% 5%;
+       
+    }
+    
+.sub-cat {
+    text-align:center;
+    color:#BBBBBB;  
+    float:left;
+    width: 40%;
+    height:width;
+
+}
+    
+    .icon{
+        width:100%;
+        max-width:260px;
+        max-height:width;
+    }
+    .icon-title{
+       font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+    font-size: 28px;
+
+    }
+    
+    .hidden-text{
+        font-family:sans-serif;
+        font-style:italic;
+    }
+    
+    /*-------------------------INTERACTIVITY---------------------*/
+    
+.icon:hover{
+  cursor: pointer;
+  opacity: 0.6;
+}
+    
+.icon-title:hover{
+    cursor:pointer;
+    opacity:0.6;
+}
+    
+#stay-together{
+        float:left;
+        width:100%;
+    }
   
      /* -------------------------------------- page footer ------------------------------ */
-    #empty-bottom-content-wrap{
-        clear:left;
-        clear:right;
-        padding: ;
-    }
+ 
     
      .page-footer {
          clear:left;
