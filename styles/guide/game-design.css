@@ -92,7 +92,7 @@ body {
      /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ About Our Site ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
      article {
          width:80%;
-         margin: -20px auto 0 auto;
+         margin: -20px auto 35px auto;
          padding: 10px;
          border: 5px #151515 solid;
          border-radius: 20px;
@@ -110,23 +110,6 @@ body {
          font-family: sans-serif;
          color:#999999;
          padding: 0px 5% 0px 5%;
-         text-align: justify;
-     }
-     .boxes {
-         font-size: 30px;
-         border: 5px #151515 outset;
-         border-radius: 20px;
-         background: #202020;
-         width:37%;
-     }
-     #guide-box {
-        margin: 4% 0 4% 8%;
-        float: left;
-
-     }
-     #blog-box {
-        margin: 4% 8% 4% 0;
-        float:right;
      }
     
     #blog-img{
@@ -273,7 +256,7 @@ A:hover {
      /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ About Our Site ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
      article {
          width:80%;
-         margin: -20px auto 0 auto;
+         margin: -20px auto 35px auto;
          padding: 10px;
          border: 5px #151515 solid;
          border-radius: 20px;
@@ -293,25 +276,7 @@ A:hover {
          padding: 0px 5% 0px 5%;
          text-align: justify;
      }
-     .boxes {
-         font-size: 30px;
-         border: 5px #151515 outset;
-         border-radius: 20px;
-         background: #202020;
-         width:37%;
-     }
-     #guide-box {
-        margin: 4% 0 4% 8%;
-        float: left;
-
-     }
-     #blog-box {
-        margin: 4% 8% 4% 0;
-        float:right;
-     }
     
-    #blog-img{
-    }
      /* -------------------------------------- page footer ------------------------------ */
     #empty-bottom-content-wrap{
         clear:left;
@@ -426,7 +391,7 @@ A:hover {
      /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ About Our Site ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
      article {
          width:80%;
-         margin: -1% auto 0 auto;
+         margin: -1% auto 35px auto;
          border: 5px #151515 solid;
          border-radius: 20px;
          padding:10px;
@@ -446,26 +411,7 @@ A:hover {
          padding: 0px 5% 0px 5%;
          text-align: justify;
      }
-     .boxes {
-         font-size: 30px;
-         border: 5px #151515 outset;
-         border-radius: 20px;
-         background-image: url(http://i.imgur.com/NP3n7Af.jpg);
-         width:37%;
-        max-width:300px;
-     }
-     #guide-box {
-        margin: 4% 0 4% 8%;
-        float: left;
-
-     }
-     #blog-box {
-        margin: 4% 8% 4% 0;
-        float:right;
-     }
     
-    #blog-img{
-    }
      /* -------------------------------------- page footer ------------------------------ */
     #empty-bottom-content-wrap{
         clear:left;
@@ -579,7 +525,7 @@ A:hover {
      /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ About Our Site ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
      article {
          width:80%;
-         margin: -1% auto 0 auto;
+         margin: -1% auto 35px auto;
          border: 5px #151515 solid;
          border-radius: 20px;
          padding:10px;
@@ -599,27 +545,7 @@ A:hover {
          padding: 0px 5% 0px 5%;
          text-align: justify;
      }
-     .boxes {
-         font-size: 30px;
-         border: 5px #151515 outset;
-         border-radius: 20px;
-         background-image: url(http://i.imgur.com/NP3n7Af.jpg);
-         width:37%;
-         max-width:300px;
-
-     }
-     #guide-box {
-        margin: 4% 0 4% 8%;
-        float: left;
-
-     }
-     #blog-box {
-        margin: 4% 8% 4% 0;
-        float:right;
-     }
     
-    #blog-img{
-    }
      /* -------------------------------------- page footer ------------------------------ */
     #empty-bottom-content-wrap{
         clear:left;
