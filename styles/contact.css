@@ -283,7 +283,7 @@
         width:200px;
         font-family:sans-serif;
         font-size: 12px;
-        padding: 0 4px;
+        padding: 2px 4px;
     }
     .message-form {
         border-radius:5px;
@@ -446,7 +446,7 @@
         width:200px;
         font-family:sans-serif;
         font-size: 12px;
-        padding: 0 4px;
+        padding: 2px 4px;
     }
     .message-form {
         border-radius:5px;
@@ -606,7 +606,7 @@
         width:200px;
         font-family:sans-serif;
         font-size: 12px;
-        padding: 0 4px;
+        padding: 2px 4px;
     }
     .message-form {
         border-radius:5px;
