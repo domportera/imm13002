@@ -103,6 +103,7 @@
         color:#BBBBBB;
         max-width:92%;
         width:200px;
+        font-family:sans-serif;
     }
     .message-form {
         border-radius:5px;
@@ -110,7 +111,7 @@
         width:75%;
         background:#404040;
         color:#BBBBBB;
-        
+        font-family:sans-serif;
         max-width: 92%;
         min-width:92%;
         height:100px;
