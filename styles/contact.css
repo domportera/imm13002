@@ -288,6 +288,7 @@
         max-width: 92%;
         min-width:92%;
         height:100px;
+        font-size: 12px;
 
     }
     #submit {
@@ -445,6 +446,7 @@
         max-width: 94%;
         min-width:310px;
         height:100px;
+        font-size: 12px;
 
     }
     #submit {
@@ -600,6 +602,7 @@
         max-width: 94%;
         min-width:310px;
         height:100px;
+        font-size: 12px;
     }
     #submit {
         border-radius:5px;
