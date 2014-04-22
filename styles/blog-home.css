@@ -523,14 +523,27 @@ A:hover {
         line-height:0px;
      }
      /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ About Our Site ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-     article {
-         width:80%;
-         margin: -1% auto 35px auto;
+    
+    #blog-wrap{
+         width:65%;
+         margin: -1% 0 35px 2%;
+         float:left;
+    }
+     .blog-post {
          border: 5px #151515 solid;
          border-radius: 20px;
          padding:10px;
          background: #202020;
      }
+    
+    .navigation {
+         width:23%;
+         margin: -1% 2% 35px 0;
+         border-radius: 20px;
+         padding:10px;
+         background: #202020;
+         float:right;
+    }
      #about-our-site {
          margin: 0px 0px;
          font-size: 28px;
@@ -546,11 +559,31 @@ A:hover {
          text-align: justify;
      }
     
+    #blog-switch{
+         width:99%;
+         border: 5px #151515 solid;
+         border-radius: 20px;
+         background: #202020;
+         float:left;
+         margin-top: 20px;      
+        
+        font-size: 15px;
+         font-family: sans-serif;
+         color:#999999;
+        padding: 4px 0% 4px 0%;
+    }
+    
+    #previous{
+        float:left;
+        margin-left:5%;
+    }
+    #next{
+        float:right;
+        margin-right:5%;
+    }
      /* -------------------------------------- page footer ------------------------------ */
     #empty-bottom-content-wrap{
-        clear:left;
-        clear:right;
-        padding: ;
+clear:both;
     }
     
      .page-footer {
