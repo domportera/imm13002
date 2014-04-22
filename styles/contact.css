@@ -105,6 +105,7 @@
         width:200px;
         font-family:sans-serif;
         font-size: 12px;
+        padding: 0 4px;
     }
     .message-form {
         border-radius:5px;
@@ -272,7 +273,7 @@
         font-size: 30px;
         margin: 20px 0 20px 2%;
     }
-    .short-form {
+     .short-form {
         border-radius:5px;
         border: inset 2px #101010;
         width:40%;
@@ -280,6 +281,9 @@
         color:#BBBBBB;
         max-width:92%;
         width:200px;
+        font-family:sans-serif;
+        font-size: 12px;
+        padding: 0 4px;
     }
     .message-form {
         border-radius:5px;
@@ -291,9 +295,10 @@
         max-width: 92%;
         min-width:92%;
         height:100px;
-        font-size: 11.5px;
-
+        font-size: 12px;
+        padding:4px;
     }
+    
     #submit {
         border-radius:5px;
         margin:20px 0 10px 0px;
@@ -431,13 +436,17 @@
         font-size: 32px;
         margin: 20px 0 20px 2%;
     }
-    .short-form {
+     .short-form {
         border-radius:5px;
         border: inset 2px #101010;
         width:40%;
         background:#404040;
         color:#BBBBBB;
-        min-width:200px;
+        max-width:92%;
+        width:200px;
+        font-family:sans-serif;
+        font-size: 12px;
+        padding: 0 4px;
     }
     .message-form {
         border-radius:5px;
@@ -446,12 +455,12 @@
         background:#404040;
         color:#BBBBBB;
         font-family:sans-serif;
-        max-width: 94%;
-        min-width:310px;
+        max-width: 92%;
+        min-width:92%;
         height:100px;
-        font-size: 11.5px;
-
-    }
+        font-size: 12px;
+        padding:4px;
+}
     #submit {
         border-radius:5px;
         margin:20px 0 10px 0px;
@@ -587,13 +596,17 @@
         font-size: 32px;
         margin: 20px 0 20px 2%;
     }
-    .short-form {
+     .short-form {
         border-radius:5px;
         border: inset 2px #101010;
         width:40%;
         background:#404040;
         color:#BBBBBB;
-        min-width:200px;
+        max-width:92%;
+        width:200px;
+        font-family:sans-serif;
+        font-size: 12px;
+        padding: 0 4px;
     }
     .message-form {
         border-radius:5px;
@@ -602,11 +615,12 @@
         background:#404040;
         color:#BBBBBB;
         font-family:sans-serif;
-        max-width: 94%;
-        min-width:310px;
+        max-width: 92%;
+        min-width:92%;
         height:100px;
-        font-size: 11.5px;
-    }
+        font-size: 12px;
+        padding:4px;
+}
     #submit {
         border-radius:5px;
         margin:20px 0 10px 0px;
