@@ -90,16 +90,27 @@ body {
          font-size: 0;
      }
      /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ About Our Site ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-     article {
-         width:80%;
-         margin: -20px auto 35px auto;
-         padding: 10px;
+
+    #blog-wrap{
+         width:90%;
+         margin: -20px auto 0px auto;
+    }
+     .blog-post {
          border: 5px #151515 solid;
          border-radius: 20px;
+         padding:10px;
          background: #202020;
      }
+    
+    .navigation {
+         width:45%;
+         margin: 75px auto 25px auto;
+         border-radius: 20px;
+         padding:10px;
+         background: #202020;
+    }
      #about-our-site {
-         margin: 10px 0px;
+         margin: 0px 0px;
          font-size: 28px;
          text-align:center;
          font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
@@ -110,14 +121,49 @@ body {
          font-family: sans-serif;
          color:#999999;
          padding: 0px 5% 0px 5%;
+         text-align: justify;
      }
     
-    #blog-img{
+    #blog-switch{
+         width:99%;
+         border: 5px #151515 solid;
+         border-radius: 20px;
+         background: #202020;
+         float:left;
+         margin-top: 20px;      
+        
+        font-size: 15px;
+         font-family: sans-serif;
+         color:#999999;
+        padding: 4px 0% 4px 0%;
+    }
+    
+    #previous{
+        float:left;
+        margin-left:5%;
+    }
+    #next{
+        float:right;
+        margin-right:5%;
+    }
+      .drop-list{
+         font-size: 15px;
+         font-family: sans-serif;
+         color:#999999;
+         padding: 0px 5% 0px 5%;
+    }
+    
+    .category{
+        font-size:16px;
+        font-style:none;
+    }
+    
+    .menu{
+        float:center;
     }
      /* -------------------------------------- page footer ------------------------------ */
     #empty-bottom-content-wrap{
-        clear:left;
-        clear:right;
+        clear:both;
         padding: ;
     }
     
@@ -254,16 +300,27 @@ A:hover {
          font-size: 0;
      }
      /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ About Our Site ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-     article {
-         width:80%;
-         margin: -20px auto 35px auto;
-         padding: 10px;
+      
+    #blog-wrap{
+         width:90%;
+         margin: -20px auto 0px auto;
+    }
+     .blog-post {
          border: 5px #151515 solid;
          border-radius: 20px;
+         padding:10px;
          background: #202020;
      }
+    
+    .navigation {
+         width:45%;
+         margin: 75px auto 25px auto;
+         border-radius: 20px;
+         padding:10px;
+         background: #202020;
+    }
      #about-our-site {
-         margin: 10px 0px;
+         margin: 0px 0px;
          font-size: 28px;
          text-align:center;
          font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
@@ -277,10 +334,46 @@ A:hover {
          text-align: justify;
      }
     
+    #blog-switch{
+         width:99%;
+         border: 5px #151515 solid;
+         border-radius: 20px;
+         background: #202020;
+         float:left;
+         margin-top: 20px;      
+        
+        font-size: 15px;
+         font-family: sans-serif;
+         color:#999999;
+        padding: 4px 0% 4px 0%;
+    }
+    
+    #previous{
+        float:left;
+        margin-left:5%;
+    }
+    #next{
+        float:right;
+        margin-right:5%;
+    }
+      .drop-list{
+         font-size: 15px;
+         font-family: sans-serif;
+         color:#999999;
+         padding: 0px 5% 0px 5%;
+    }
+    
+    .category{
+        font-size:16px;
+        font-style:none;
+    }
+    
+    .menu{
+        float:center;
+    }
      /* -------------------------------------- page footer ------------------------------ */
     #empty-bottom-content-wrap{
-        clear:left;
-        clear:right;
+        clear:both;
         padding: ;
     }
     
@@ -389,14 +482,27 @@ A:hover {
         line-height:0px;
      }
      /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ About Our Site ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-     article {
-         width:80%;
-         margin: -1% auto 35px auto;
+    
+    #blog-wrap{
+         width:65%;
+         margin: -20px 0 0px 2%;
+         float:left;
+    }
+     .blog-post {
          border: 5px #151515 solid;
          border-radius: 20px;
          padding:10px;
          background: #202020;
      }
+    
+    .navigation {
+         width:23%;
+         margin: -1% 2% 35px 0;
+         border-radius: 20px;
+         padding:10px;
+         background: #202020;
+         float:right;
+    }
      #about-our-site {
          margin: 0px 0px;
          font-size: 28px;
@@ -412,10 +518,46 @@ A:hover {
          text-align: justify;
      }
     
+    #blog-switch{
+         width:99%;
+         border: 5px #151515 solid;
+         border-radius: 20px;
+         background: #202020;
+         float:left;
+         margin-top: 20px;      
+        
+        font-size: 15px;
+         font-family: sans-serif;
+         color:#999999;
+        padding: 4px 0% 4px 0%;
+    }
+    
+    #previous{
+        float:left;
+        margin-left:5%;
+    }
+    #next{
+        float:right;
+        margin-right:5%;
+    }
+      .drop-list{
+         font-size: 15px;
+         font-family: sans-serif;
+         color:#999999;
+         padding: 0px 5% 0px 5%;
+    }
+    
+    .category{
+        font-size:16px;
+        font-style:none;
+    }
+    
+    .menu{
+        float:center;
+    }
      /* -------------------------------------- page footer ------------------------------ */
     #empty-bottom-content-wrap{
-        clear:left;
-        clear:right;
+        clear:both;
         padding: ;
     }
     
@@ -526,7 +668,7 @@ A:hover {
     
     #blog-wrap{
          width:65%;
-         margin: -1% 0 35px 2%;
+         margin: -20px 0 0px 2%;
          float:left;
     }
      .blog-post {
@@ -581,6 +723,23 @@ A:hover {
         float:right;
         margin-right:5%;
     }
+    
+    .drop-list{
+         font-size: 15px;
+         font-family: sans-serif;
+         color:#999999;
+         padding: 0px 5% 0px 5%;
+    }
+    
+    .category{
+        font-size:16px;
+        font-style:none;
+    }
+    
+    .menu{
+        float:center;
+    }
+    
      /* -------------------------------------- page footer ------------------------------ */
     #empty-bottom-content-wrap{
 clear:both;
@@ -626,3 +785,26 @@ A:hover {
 }
  }
  /*;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;*/
+
+
+ .show1 {display: none; }
+      .hide1:focus + .show1 {display: inline; }
+      .hide1:focus { display: none; }
+      .hide1:focus ~ #list1 { display:none; }
+
+ .show2 {display: none; }
+      .hide2:focus + .show2 {display: inline; }
+      .hide2:focus { display: none; }
+      .hide2:focus ~ #list2 { display:none; }
+
+
+ .show3 {display: none; }
+      .hide3:focus + .show3 {display: inline; }
+      .hide3:focus { display: none; }
+      .hide3:focus ~ #list3 { display:none; }
+
+
+ .show4 {display: none; }
+      .hide4:focus + .show4 {display: inline; }
+      .hide4:focus { display: none; }
+      .hide4:focus ~ #list4 { display:none; }
